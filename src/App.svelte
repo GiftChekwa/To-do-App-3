@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    <h1>📝 My To-Do List</h1>
+    <h1>My To-Do List</h1>
 
     <!-- Add form -->
     <div class="form">
@@ -100,12 +100,12 @@
 
       <div class="row">
         <label>
-          <span>📅 Date</span>
+          <span>Date</span>
           <input type="date" bind:value={date} />
         </label>
 
         <label>
-          <span>⏰ Time</span>
+          <span>Time</span>
           <input type="time" bind:value={time} />
         </label>
       </div>
@@ -180,7 +180,7 @@
   .card {
     width: 100%;
     max-width: 480px;
-    background: #fffbd1;
+    background: #f8efb2;
     border-radius: 24px;
     padding: 28px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
